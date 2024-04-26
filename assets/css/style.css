@@ -1,0 +1,283 @@
+/* Aspectos generales */
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header */
+.logo-desafio {
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.logo--img {
+    box-shadow: 0px 4px 4px rgb(180, 180, 180);
+    width: 55px;
+    height: 55px;
+    margin-left: 110px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.logo--text {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+}
+
+/* Sección 1 */
+.section1 {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.section1_novedades--title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    padding-bottom: 20px;
+    letter-spacing: 0em;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.container--cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.container1--img {
+    box-shadow: 0px 4px 4px rgb(180, 180, 180);
+    width: 603px;
+    height: 314px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.section1_container1--date {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.section1_container1--title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.desafio-logo {
+    display: flex;
+    align-items: center;
+}
+
+.section1_container1_pie--logo {
+    box-shadow: 0px 4px 4px rgb(180, 180, 180);
+    width: 60px;
+    height: 60px;
+    border-radius: 77px;
+    margin-right: 15px;
+}
+
+.section1_container1__pie_logo_text {
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 36px;
+}
+
+.section1_container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.section1_container2--card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card--img {
+    box-shadow: 0px 4px 4px rgb(180, 180, 180);
+    width: 189px;
+    height: 145px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.section1_container2_card {
+    width: 50%;
+}
+
+.section1_container2_card--date {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+}
+
+.section1_container2_card--title {
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 30px;
+}
+
+.card_pie--img {
+    box-shadow: 0px 4px 4px rgb(180, 180, 180);
+    width: 39.79px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 77px;
+}
+
+.card_pie--text {
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 24px;
+}
+
+/* Sección 2 */
+.section2 {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.populares {
+    max-width: 50%;
+}
+
+.section2_title {
+    font-size: 28px;
+    font-weight: 700px;
+    line-height: 42px;
+}
+
+.container2--cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 1rem;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.section2--container {
+    max-width: 300%;
+}
+
+.section2_card--img {
+    width: 298px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.categorias {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.categorias--titulo {
+    margin-bottom: 0%;
+}
+
+.categorias--banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 0px 80px;
+    height: 89px;
+    width: 298px;
+    margin-top: 30px;
+}
+
+.categorias_banner--img {
+    width: 85px;
+    height: 74px;
+}
+
+.categorias_banner--text {
+    font-size: 32px;
+    font-weight: 700px;
+    line-height: 48px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Color de fondo de todas las categorías */
+.categorias--html {
+    background-color: #E93E30;
+}
+
+.categorias--js {
+    background-color: #F7E018;
+}
+
+.categorias--css {
+    background-color: #299ED5;
+}
+
+.categorias--react {
+    background-color: #292C33;
+}
+
+.categorias--vue {
+    background-color: #67C770;
+}
+
+.categorias--bootstrap {
+    background-color: #563D7C;
+}
+
+.categorias--link {
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 80px;
+}
+
+/*Footer*/
+.logo-texto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-desafio {
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.logo--img {
+    box-shadow: 0px 4px 4px rgb(180, 180, 180);
+    width: 55px;
+    height: 55px;
+    margin-left: 110px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.logo--text {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.footer--text {
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 30px;
+    margin-right: 200px;
+    text-align: right;
+}
